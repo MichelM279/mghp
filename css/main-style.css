@@ -1,0 +1,13 @@
+/* 
+    Created on : 07.12.2016, 13:09:42
+    Author     : Michel
+*/
+body {
+    background-image: url(../img/scribble_light.png);
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+
+#main-background {
+    background-image: url(../img/handshake.jpg);
+    background-size: cover;
+}
