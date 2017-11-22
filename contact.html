@@ -31,6 +31,7 @@
     
     <!-- Own CSS -->
     <link rel="stylesheet" href="css/main-style.css">
+    <link rel="stylesheet" href="css/formular.css">
 	
 	<!-- Google Analytics -->
 	<script>
@@ -72,10 +73,30 @@
             <p class="lead">
                 Wir sind gerne persönlich für Sie da!
             </p>
-            <p>
+            <!--<p>
                 Evtl. hier links ein Kontaktformular, was automatisch eine Mail an "info@mangold-global.com" sendet? </br>
                 Dafür müsste aber erst Mail-Funktionalität gegeben sein. </br>
-            </p>
+            </p>-->
+			<p>Bitte formulieren Sie im folgenden Formular Ihr Anliegen.</p>
+			<form action="formmail.php" method="POST">
+				<input type="hidden" name="subject" value="Kontaktformular">
+				<input type="hidden" name="access" value="kontakt-secret-easy">
+				<div>
+					<label for="name">Name:</label>
+					<input type="text" id="usr_name" name="usr_name">
+				</div>
+				<div>
+					<label for="mail">E-mail:</label>
+					<input type="usr_mail" id="usr_mail" name="user_mail">
+				</div>
+				<div>
+					<label for="msg">Nachricht:</label>
+					<textarea id="usr_msg" name="usr_msg"></textarea>
+				</div>
+				<div class="button">
+					<button type="submit">Abschicken</button>
+				</div>
+			</form>
           </div> <!-- /col-sm-8 -->
           <div class="col-sm-4">
             <h3>Geschäftsaddresse</h3>
