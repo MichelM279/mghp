@@ -1,5 +1,5 @@
 <?php
-$recipient = "mi.mangold89@gmail.com";
+$recipient = "info@mangold-global.com";
 $fmtResponse= implode("", file("formresponse.htt"));
 $fmtMail= implode("", file("formmail.htt"));
 foreach($_POST as $key=> $val) {
