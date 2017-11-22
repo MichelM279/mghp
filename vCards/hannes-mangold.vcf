@@ -1,18 +1,13 @@
-<div class="vcard">
-  <img src="http://mangold-global.de/vCards/hannes-mangold" alt="photo" class="photo"/>
- <div class="org">Mangold Global GmbH</div>
- <div class="role">CEO</div>
- <a class="url fn n" href="http://mangold-global.de/">
-  <span class="given-name">Hannes</span>
-  <span class="family-name">Mangold</span>
- </a>
- <span class="sort-string">Mangold</span>
- <div class="adr dom home postal parcel">
-   <div class="street-address">Orrer Str. 10</div>
-     <span class="postal-code">50765</span>
-     <span class="locality">KÃ¶ln</span>
-     <div class="country-name">Germany</div>
- </div>
- <div class="tel">+49 000 00000000</div>
- <div class="bday">1989-09-27</div>
-</div>
+BEGIN:VCARD
+VERSION:2.1
+N;CHARSET=ISO-8859-1:Mangold;Hannes;;;
+FN;CHARSET=ISO-8859-1: Hannes Mangold
+ORG;CHARSET=ISO-8859-1:Mangold Global GmbH
+TITLE;CHARSET=ISO-8859-1:CEO
+URL;type=WORK;CHARSET=ISO-8859-1:http://www.mangold-global.de
+EMAIL;CHARSET=ISO-8859-1;type=WORK;type=PREF:hannes-mangold@mangold-global.com
+TEL;type=CELL;type=VOICE:+40 000 00000000
+ADR;CHARSET=ISO-8859-1;type=WORK;type=pref:;;Orrer Str. 10;Köln;;50765;Germany
+LABEL;WORK;PREF;ENCODING=QUOTED-PRINTABLE;CHARSET=ISO-8859-1:Orrer Str. 10=0D=0A=
+50765 Köln Germany
+END:VCARD
