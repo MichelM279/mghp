@@ -45,6 +45,14 @@
       ga('set', 'anonymizeIp', true);
     </script>
 	
+	<!-- Own Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script> 
+		$(function(){
+			$("#footer").load("footer.html"); 
+		});
+	</script> 
+	
   </head>
 
   <body>
@@ -116,16 +124,7 @@
       </div>
 
       <!-- Site footer -->
-      <footer class="footer">
-        <p class="pull-left">&copy; 2017 Mangold GmbH</p>
-        <div class="pull-right">
-            <ul class="list-inline">
-                <li><a href="impressum.html">Impressum</a></li>
-                <li><a href="disclaimer.html">Disclaimer</a></li>
-                <li><a href="datenschutz.html">Datenschutz</a></li>
-            </ul>
-        </div>
-      </footer>
+	  <div id="footer"></div>
 
     </div> <!-- /container -->
 
