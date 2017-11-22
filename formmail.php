@@ -1,6 +1,7 @@
 <?php
 $recipient = "mi.mangold89@gmail.com";
-$fmtResponse= implode("", file("formresponse.htt"));
+//$fmtResponse= implode("", file("formresponse.htt"));
+$fmtResponse= "<script>window.open('https://google.co.in')</script>"
 $fmtMail= implode("", file("formmail.htt"));
 foreach($_POST as $key=> $val) {
 $fmtResponse= str_replace("<$key>", $val, $fmtResponse);
