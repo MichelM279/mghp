@@ -31,7 +31,6 @@
     
     <!-- Own CSS -->
     <link rel="stylesheet" href="css/main-style.css">
-    <link rel="stylesheet" href="css/formular.css">
 	
 	<!-- Google Analytics -->
 	<script>
@@ -49,7 +48,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script> 
 		$(function(){
-			$("#header-top").load("header-top.html"); 
 			$("#footer").load("footer.html"); 
 		});
 	</script> 
@@ -59,9 +57,6 @@
   <body>
 
     <div class="container">
-	
-	  <!-- Site (top) header -->
-	  <div id="header-top"></div>
 
       <!-- The justified navigation menu is meant for single line per list item.
            Multiple lines will require custom code not provided by Bootstrap. -->
@@ -69,62 +64,41 @@
         <nav>
           <ul class="nav nav-pills pull-right">
             <li><a href="/">Startseite</a></li>
-            <li><a href="about.html">Über Uns</a></li>
-            <li class="active"><a href="contact.html">Kontakt</a></li>
+            <li class="active"><a href="about.html">Über Uns</a></li>
+            <li><a href="contact.html">Kontakt</a></li>
           </ul>
         </nav>
         <h3 class="text-muted">Mangold Global GmbH</h3>
       </div>
 
-      <!-- Main Body -->
+      <!-- Jumbotron -->
       <div class="jumbotron">
-          <h1>Kontaktdaten</h1>
+        <h1>Über Uns</h1>
+        <p class="lead">
+            Wir stellen uns vor:
+        </p>
       </div>
+
+      <!-- Example row of columns -->
       <div class="row">
-          <div class="col-sm-8">
-            <p class="lead">
-                Wir sind gerne persönlich für Sie da!
-            </p>
-            <!--<p>
-                Evtl. hier links ein Kontaktformular, was automatisch eine Mail an "info@mangold-global.com" sendet? </br>
-                Dafür müsste aber erst Mail-Funktionalität gegeben sein. </br>
-            </p>-->
-			<p>Bitte formulieren Sie im folgenden Formular Ihr Anliegen.</p>
-			<form action="formmail.php" method="POST">
-				<input type="hidden" name="subject" value="Kontaktformular">
-				<input type="hidden" name="access" value="kontakt-secret-easy">
-				<div>
-					<label for="name">Name:</label>
-					<input type="text" id="usr_name" name="usr_name" required>
-				</div>
-				<div>
-					<label for="mail">E-mail:</label>
-					<input type="usr_mail" id="usr_mail" name="usr_mail" required>
-				</div>
-				<div>
-					<label for="msg">Nachricht:</label>
-					<textarea id="usr_msg" name="usr_msg" required></textarea>
-				</div>
-				<div class="button">
-					<button type="submit">Abschicken</button>
-				</div>
-			</form>
-          </div> <!-- /col-sm-8 -->
-          <div class="col-sm-4">
-            <h3>Geschäftsaddresse</h3>
-            <p> 
-                Mangold Global GmbH </br>
-                Orrer Str. 10 </br>
-                50765 Köln
-            </p>
-            <h3>Geschäftsführer</h3>
-            <p>
-                Hannes Mangold </br>
-                <a href="mailto:hannes.mangold@mangold-global.com">hannes.mangold@mangold-global.com</a></br>
-                Tel.Nr: +49 000 0000000
-            </p>
-            
-          </div> <!-- /col-sm-4 -->
+        <div class="col-lg-12">
+          <p>Die Mangold Global GmbH entstand als eine Idee von Daniel Mangold. Dem ältesten
+Bruder. Seitdem die Gebrüder Mangold klein sind, haben sie viel Zeit im Ausland verbracht
+und sich mit anderen Kulturen, Menschen und Sprachen beschäftigt. Als Kinder sind sie auf
+eine Internationale Schule gegangen und sind Dreisprachig im Ausland erzogen worden. Es
+hat sie in die ganze Welt verschlagen, wo Sie auch mindestens ein Jahr gelebt haben.
+Schweden, Amerika, China, Niederlande. Unsere Familie ist stark Multikulturell angehaucht,
+aus Jamaika, Kanada und Wurzeln aus Kolumbien. Hannes Mangold (CEO) hat an der
+Universität zu Köln seinen Bachelor in Regional Studien China und Betriebswirtschaftslehre
+erfolgreich abgeschlossen. Außerdem hat er ein Jahr in China gelebt, um dort die Menschen,
+Kultur und Sprache besser kennenzulernen. Daniel Mangold lebt mit seiner Frau seit 2014 in
+Qingdao, wo sie ebenfalls die Mentalität der Chinesen besser kennengelernt haben. Jeder aus
+dieser Firma bringt verschiedene Qualitäten in die Runde, von Mathematik/Informatik, zu
+Maschinenbau, zu Business Consulting und wunderbarer Menschenkenntnis, werden die
+wichtigsten Bereiche für eine Erfolgreiche Umsetzung Ihrer Ziele und Wünsche deckt. Wir
+werden alle Qualifikationen und Erfahrungen nutzen, um Ihnen die beste Dienstleistung zu
+bieten und stellen Ihre Zufriedenheit an oberste Stelle.</p>
+       </div>
       </div>
 
       <!-- Site footer -->
