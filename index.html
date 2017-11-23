@@ -49,7 +49,7 @@
 	<script> 
 		$(function(){
 			$("#header-top").load("header-top.html"); 
-			$("#footer").load("footer.html"); 
+			$("#footer").load("footer.html" + '?noCache=' + (new Date).getTime() ); 
 		});
 	</script> 
   
