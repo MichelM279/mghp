@@ -48,8 +48,8 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script> 
 		$(function(){
-			$("#header-top").load("header-top.html"); 
-			$("#footer").load("footer.html"); 
+			$("#header-top").load("header-top.html" + '?noCache=' + (new Date).getTime() ); 
+			$("#footer").load("footer.html" + '?noCache=' + (new Date).getTime() ); 
 		});
 	</script> 
   
