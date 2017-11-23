@@ -8,6 +8,6 @@ body {
 }
 
 #main-background {
-    background-image: url(../img/handshake.jpg);
+    /* background-image: url(../img/handshake.jpg); */
     background-size: cover;
 }
