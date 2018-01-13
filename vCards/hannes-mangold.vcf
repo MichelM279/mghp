@@ -6,7 +6,7 @@ ORG;CHARSET=ISO-8859-1:Mangold Global GmbH
 TITLE;CHARSET=ISO-8859-1:CEO
 URL;type=WORK;CHARSET=ISO-8859-1:http://www.mangold-global.de
 EMAIL;CHARSET=ISO-8859-1;type=WORK;type=PREF:hannes-mangold@mangold-global.com
-TEL;type=CELL;type=VOICE:+40 000 00000000
+TEL;type=WORK;type=VOICE:+49 221 25929118
 ADR;CHARSET=ISO-8859-1;type=WORK;type=pref:;;Orrer Str. 10;Köln;;50765;Germany
 LABEL;WORK;PREF;ENCODING=QUOTED-PRINTABLE;CHARSET=ISO-8859-1:Orrer Str. 10=0D=0A=
 50765 Köln Germany
