@@ -11,3 +11,7 @@ body {
     /* background-image: url(../img/handshake.jpg); */
     background-size: cover;
 }
+
+h2 {
+	font-size: 20px;
+}
